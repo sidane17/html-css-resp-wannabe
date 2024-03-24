@@ -47,6 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
+ 
     width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
@@ -127,3 +128,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media screen and ( max-width:768px) {
+    .container{
+        width:90%;
+        
+    }
+}
+@media screen and ( max-width:480) {
+    body{
+        display: flex;
+        flex-direction: wrap;
+  
+    }
+    .container{
+        width:90%;
+    }
+}
